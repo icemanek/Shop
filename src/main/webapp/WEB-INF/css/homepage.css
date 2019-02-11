@@ -1,0 +1,22 @@
+.carousel{
+
+    background-color: dimgrey !important;
+
+}
+
+.carousel-inner {
+
+    background-color: dimgrey !important;
+
+}
+
+.carousel-item {
+
+
+    background-color: dimgrey !important;
+}
+
+h5, p{
+
+    color:orangered !important;
+}

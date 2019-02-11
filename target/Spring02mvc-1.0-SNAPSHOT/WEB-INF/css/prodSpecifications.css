@@ -1,0 +1,64 @@
+.btn {
+    color:white;
+    border-radius: 100px !important;
+    font-size: 17px!important;
+    font-weight: bold!important;
+    letter-spacing: 1px!important;
+    padding: 17px 39px!important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14)!important;
+    text-transform: uppercase!important;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2)!important;
+    background: #01a8c1 !important;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #01a8c1 0%, #2adbf7 50%, #00b5d1 51%, #0aafc9 71%, #0599b1 100%)!important;
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #01a8c1 0%,#2adbf7 50%,#00b5d1 51%,#0aafc9 71%,#0599b1 100%)!important;
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #01a8c1 0%,#2adbf7 50%,#00b5d1 51%,#0aafc9 71%,#0599b1 100%)!important;
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01a8c1', endColorstr='#0599b1',GradientType=1 )!important;
+    /* IE6-9 fallback on horizontal gradient */
+    background-size: 400% 400%!important;
+    -webkit-animation: AnimationName 3s ease infinite!important;
+    -moz-animation: AnimationName 3s ease infinite!important;
+    animation: AnimationName 3s ease infinite!important;
+    border: medium none!important;
+    line-height: 1.5 !important;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
+@-moz-keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
+@keyframes AnimationName {
+    0%{
+        background-position:0% 31%
+    }
+    50%{
+        background-position:100% 70%
+    }
+    100%{
+        background-position:0% 31%
+    }
+}
+
+

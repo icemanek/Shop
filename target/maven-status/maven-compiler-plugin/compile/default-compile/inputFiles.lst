@@ -1,0 +1,11 @@
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/model/CartItem.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/config/AppConfig.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/model/Cart.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/repositories/ProductRepository.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/services/ProductServiceImpl.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/controllers/HomeController.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/app/AppInitializer.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/controllers/ProductController.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/controllers/CartController.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/model/Product.java
+/home/emil/Pulpit/Pragmatic Coders/E-commerce/src/main/java/pl/pragmaticcoders/services/ProductService.java
