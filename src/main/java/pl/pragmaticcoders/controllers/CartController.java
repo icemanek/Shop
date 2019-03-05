@@ -3,14 +3,16 @@ package pl.pragmaticcoders.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import pl.pragmaticcoders.model.Cart;
 import pl.pragmaticcoders.model.CartItem;
 import pl.pragmaticcoders.model.Product;
 import pl.pragmaticcoders.services.ProductService;
 
-import javax.validation.constraints.Null;
+import javax.validation.Valid;
 import java.util.List;
 
 @Controller
@@ -25,6 +27,7 @@ public class CartController {
     @RequestMapping("/addToCart/{id}/{quantity}")
     public String addtocart(@PathVariable Long id, @PathVariable int quantity) {
         int n = quantity;
+
      try {
          Product product = productService.findFirstById(id);
          List<CartItem> products = cart.getCartItems();
@@ -48,6 +51,7 @@ public class CartController {
 
          }
          cart.addToCart(new CartItem(n, product));
+
      }catch (NullPointerException e){
          e.printStackTrace();
          System.out.println("NullPointerException cart adding");

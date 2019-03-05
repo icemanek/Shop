@@ -3,6 +3,7 @@ package pl.pragmaticcoders.model;
 public class CartItem {
 
 
+
     private Integer quantity;
 
 

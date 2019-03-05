@@ -94,7 +94,7 @@
                 Ilość sztuk: ${numOfProducts}                  &nbsp
                 Wartość zakupów: ${total} zł
             </div>
-            <a href="" type="submit" class="btn">Zamawiam</a>
+            <a href="#" type="submit" class="btn">Zamawiam</a>
         </div>
     </div>
 </div>

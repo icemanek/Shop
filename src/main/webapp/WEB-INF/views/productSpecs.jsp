@@ -99,12 +99,12 @@
 
     Wpisz ilośc produktu <input type="number" name="num" min="1" id="input"
                                 onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57"
-                                onchange="my()">
+                                     onchange="my()"/>
+
 
     <a id="result" href="/addToCart/${product.id}/1" class="btn">Dodaj do koszyka</a>
 
 </div>
-
 </div>
 <footer>
     <%@include file="parts/footer.jsp" %>

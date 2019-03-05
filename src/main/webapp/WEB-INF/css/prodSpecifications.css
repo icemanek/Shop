@@ -26,6 +26,11 @@
     line-height: 1.5 !important;
 }
 
+.btn:hover{
+
+    color:black;
+}
+
 
 @-webkit-keyframes AnimationName {
     0%{

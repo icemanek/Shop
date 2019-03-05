@@ -26,7 +26,7 @@
     <script>
 
 
-        // skrypt do wyboru ilości produktów z formy select function myFunction() {
+        // script for select number of quantity function myFunction() {
         //     var dropdown = document.getElementById("dropdown");
         //     var link = document.getElementById("link");
 
@@ -83,7 +83,7 @@
     <h2>${product.price} zł</h2>
     <p>${product.description}</p>
 
-    <%-- wybór ilości produktów z formy select<select name="theme" onchange="myFunction()" id="dropdown" class="dropdown">--%>
+    <%-- choose number of quantity from select <select name="theme" onchange="myFunction()" id="dropdown" class="dropdown">--%>
 
     <%--<option value="">Wybierz ilośc produktów</option>--%>
     <%--<option value="1">1</option>--%>
@@ -99,12 +99,12 @@
 
     Wpisz ilośc produktu <input type="number" name="num" min="1" id="input"
                                 onkeypress="return (event.charCode === 8 || event.charCode === 0) ? null : event.charCode >= 48 && event.charCode <= 57"
-                                onchange="my()">
+                                     onchange="my()"/>
+
 
     <a id="result" href="/addToCart/${product.id}/1" class="btn">Dodaj do koszyka</a>
 
 </div>
-
 </div>
 <footer>
     <%@include file="parts/footer.jsp" %>

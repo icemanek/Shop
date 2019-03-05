@@ -80,7 +80,7 @@
     </div>
 
     <section class="container-fluid" id="foot5">
-        <h4 class="text-center text-muted">Copyrights © 2018 sklep komputerowy</h4>
+        <h4 class="text-center text-muted">Copyrights © 2019 Emil Sankowski sklep komputerowy</h4>
     </section>
 
 
