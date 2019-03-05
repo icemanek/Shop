@@ -49,9 +49,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Produkt</th>
+                    <th scope="col">Nazwa</th>
                     <th scope="col"></th>
-                    <th scope="col" style="width: 20%">Zdjęcie</th>
+                    <th scope="col" style="width: 20%"></th>
                     <th scope="col">Cena</th>
                     <th scope="col"></th>
                     <th scope="col"></th>

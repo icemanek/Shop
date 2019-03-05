@@ -49,9 +49,9 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Produkt</th>
+                    <th scope="col">Nazwa</th>
                     <th scope="col"></th>
-                    <th scope="col" style="width: 20%">Zdjęcie</th>
+                    <th scope="col" style="width: 20%"></th>
                     <th scope="col">Cena</th>
                     <th scope="col"></th>
                     <th scope="col"></th>
@@ -59,8 +59,8 @@
                     <th scope="col">Ilość sztuk</th>
                     <th scope="col">Suma</th>
                     <th scope="col">Zniżka</th>
-                    <th scope="col">Usuń</th>
-                    <th scope="col">Dodaj produkt</th>
+                    <th scope="col"></th>
+                    <th scope="col"></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -78,7 +78,7 @@
 
                         <td></td>
                         <td>
-                            <a href="#" onclick="confirmDelete(${item.product.id}, ${item.quantity})">Delete</a>
+                            <a href="#" onclick="confirmDelete(${item.product.id}, ${item.quantity})">Usuń</a>
                         </td>
 
                         <td>
